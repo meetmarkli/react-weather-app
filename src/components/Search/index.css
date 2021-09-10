@@ -1,0 +1,27 @@
+@import "https://raw.githubusercontent.com/jonathantneal/system-font-css/gh-pages/system-font.css";
+.search {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.search-body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+}
+
+input {
+  width: 215px;
+  height: 28px;
+  font: inherit;
+  padding: 0.2em 0.5em;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+}
